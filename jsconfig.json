@@ -1,0 +1,11 @@
+{
+  "exclude": ["node_modules", "dist"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "types": ["vite-plugin-vue-layouts/client"],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
